@@ -276,25 +276,28 @@ input[type=submit] {
     text-align: center;
     width: 100%;
     height: 80px;
-    max-width: 640px;
+    display: block;
     margin: 0 0 0 0;
   }
 
-  #masthead{
-    overflow: auto;
-
+  #main-container{
+    padding-top: 160px;
   }
 
   .container{
     max-width: 640px;
     width: 100%;
-
   }
 
   nav {
     float: none;
     text-align: center;
-    margin
+  }
+
+  .sidebar{
+    margin-right: 5px;
+    margin-left: 40px;
+    width: 620px;
   }
 
 }
